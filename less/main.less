@@ -34,4 +34,24 @@ body {
     background: #232323;
     color: #fff;
     font-size: 85%;
+
+    .widget {
+        margin-top: 1.5 em;
+        border-right: 1px solid #1c1c1c;
+        p {
+            color: #aaa;
+            line-height: 1.5em;
+        }
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+    .foot-form {
+        box-sizing: border-box;
+        padding: 1em;
+        background: darken(#232323, 25%);
+        border-radius: .5em;
+        border: 1px solid #191919;
+    }
 }
